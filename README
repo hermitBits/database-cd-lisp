@@ -1,0 +1,37 @@
+database-cd
+===============
+
+
+1. Introdução
+2. Funções
+3. Referências
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+1. Introdução
+~~~~~~~~~~~~~
+Baseado no primeiro tutorial do livro Pratical Commom Lisp, Peter Seibel.
+Exploramos estruturas de dados, funções, variáveis, condicionais, etc...
+tudo que um programador precisar conhecer de uma linguagem para começar a
+dar seus primeiros passos.
+
+
+2. Funções
+~~~~~~~~~~
+make-cd: retorna um objeto contendo os atributos de um CD(Titulo, Artista,
+Rating)
+add-record: inseri o CD criado na estrutura de banco de dados(*DATA_BASE*).
+add-cds: automatiza a criação de CD pelo pela interface de input do terminal
+prompt-for-cd: recebe os valores do teclado para montar um CD
+prompt-read: le o input do terminal
+dump-db: dump do banco de dados
+select: função basica que separa valores que caem na excessão
+where: execeções para buscar no banco de dados um CD
+save-db: salva o estado atual do banco
+load-db: recarrega estado anterior do banco
+
+
+3.Referências
+~~~~~~~~~~~~~
+[1][Pratical Commom Lisp] https://gigamonkeys.com/book/
